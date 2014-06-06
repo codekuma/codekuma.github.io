@@ -20,10 +20,10 @@ Code Kuma is a friendly, casual hack session targetted at people at any skill le
 
 There is no set agenda for Code Kuma, ideally you would bring along your own project to work on, or find someone at the event who'd 
 be interested in having some help (There will be a pin-board and cards where you can put up a project you're looking for volunteers
-to help on).
+to help on). 
 
 Are you totally new to programming? Pomke and Liza are here to help, we can help you get a programming language installed on your
-computer, point you to some great tutorials, get you set up with a github account, even give you a bit of a kickstart with a brief intro to programming if you'd like ^_^
+computer, point you to some great tutorials, get you set up with a github account, even give you a bit of a kickstart with a brief intro to programming if you'd like. Just like to work on your website? That's totally okay too ^_^
 
 ## Who is this for?
 
