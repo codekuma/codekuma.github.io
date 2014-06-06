@@ -11,7 +11,7 @@
 
 ## Register
 
-Register attendance on Meetup (link coming ASAP)
+Register attendance on [our Meetup page](http://www.meetup.com/Code-Kuma/)
 
 
 ## What is Code Kuma?
