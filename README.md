@@ -11,7 +11,7 @@ be interested in having some help (There will be a pin-board and cards where you
 to help on).
 
 Are you totally new to programming? Pomke and Liza are here to help, we can help you get a programming language installed on your
-computer, point you to some great totorials, and even give you a bit of a kickstart with a brief intro to programming if you'd like ^_^
+computer, point you to some great tutorials, and even give you a bit of a kickstart with a brief intro to programming if you'd like ^_^
 
 ## Details 
 
