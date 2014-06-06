@@ -35,7 +35,7 @@ help, jump in, if you need some help, just ask!
 
 Anyone who wants to be judgemental about other's choices of technology. While being constructive is great, we're all for polyglot engineers.
 The group will have a strong focus on Free and Open Source technology, and we'd be the first to recommend people in that direction, however if
-someone wants to write some .NET they are welcome to as well. Please avoid agressively soap-boxing your language or choice, there is nothing 
+someone wants to write some .NET they are welcome to as well. Please avoid agressively soap-boxing your language of choice, there is nothing 
 wrong with healthy discussion but please make everyone feel welcome.
 
 
