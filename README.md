@@ -6,7 +6,7 @@
 
 * Next session: Tuesday 24th June, 6PM - 10PM 
 * cost: FREE as in cider :D
-* Where: Small World Social offices, Level 3, 306 Little Collins St, Melbourne (Enter off Causeway Lane just beside the Laurant)
+* Where: Small World Social offices, Level 3, 306 Little Collins St, Melbourne (Enter off Causeway Lane just beside the Laurent)
 * Bring: A laptop, snacks to share, money if you'd like to order out for dinner with us. Tea & Coffee will be provided :)
 
 ## Register
