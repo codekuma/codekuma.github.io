@@ -1,0 +1,88 @@
+@import _helpers
+
+html {
+  font-size: 18px;
+}
+
+*
+  box-sizing: border-box
+
+body
+  font-family: $copy-font
+  background-color: #fff
+  margin: 0
+  padding: 0 0 2rem
+  line-height: 1.65
+
+h1
+  // padding-top: 0
+  line-height: 1
+  text-align: center
+  @media $large
+    margin-top: 0
+    text-align: left
+
+h2
+  padding-bottom: 0.5rem
+  border-bottom: 1px solid lightgrey
+
+a
+  color: #2f0076
+  font-weight: bold
+
+  &:hover
+    text-decoration: none
+
+nav
+  ul, li
+    list-style: none
+    padding: 0
+    margin: 0
+
+p:last-child
+  margin-bottom 0
+
+.container
+  padding: 1rem
+  max-width: 38rem
+  margin: auto
+  position: relative
+
+.main-header
+  background-color: #eae3f5
+  border-bottom: remcalc(4px) solid #bba9d7
+  padding: 1rem
+  text-align: center
+
+  @media $large
+    text-align: left
+    // height: remcalc(150px)
+
+.kuma
+  display: block
+  width: remcalc(200px)
+  margin: auto
+
+  @media $large
+    position: absolute
+    bottom: -2rem
+    left: remcalc(-220px)
+
+.main-content
+  color: #222
+
+.button
+  background-color: #2f0076
+  color: #fff
+  text-decoration: none
+  font-weight: $bold
+  border-radius: remcalc(6px)
+  display: inline-block
+  vertical-align: middle
+  padding: remcalc(10px) remcalc(20px)
+  transition(all 200ms ease)
+
+  &:hover
+    background-color: #000
+
+// .main-nav

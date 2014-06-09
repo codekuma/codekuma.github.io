@@ -1,0 +1,33 @@
+remcalc(value) { /* separate mixin, so it can be used elsewhere */
+    u = unit(value);
+
+    if (u is 'px') {
+        return unit(value/$base-font-size, 'rem');
+    } else {
+        return unit(value, u);
+    }
+}
+
+$base-font-size = 16
+$copy-font = 'Open Sans', Arial, Helvetica, sans-serif
+$bold = 700
+$normal = 400
+
+$small = {
+	min: 0,
+	max: remcalc(767px)
+}
+
+$medium = {
+	min: sum($small.max, 1px),
+	max: remcalc(1170px)
+}
+
+$large = {
+	min: sum($medium.max, 1px),
+	max: remcalc(1400px)
+}
+
+$small = "(max-width: " + $small.max + ")"
+$medium = "(min-width: " + $medium.min + ")"
+$large = "(min-width: " + $large.min + ")"

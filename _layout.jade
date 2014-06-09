@@ -1,0 +1,18 @@
+doctype 5
+html
+  head
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,700', rel='stylesheet', type='text/css')
+    link(rel="stylesheet" href="css/main.css")
+  body
+    header.main-header
+      .container
+        img.kuma(src="images/codekuma.png", alt="Code Kuma mascot")
+        h1
+          img.kuma-text(src="images/codekuma-text.png", alt="Code Kuma image")
+        p <strong>Next session:</strong> Tuesday 24th June, 6PM - 10PM<br>
+          |<strong>Where:</strong> Small World Social, Level 3, 306 Little Collins St, Melbourne
+        p
+          a.button(href="#") Register at Meetup.com
+    article.main-content(role="main")
+      .container
+        != yield
