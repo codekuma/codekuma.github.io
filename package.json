@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/codekuma/codekuma.github.io/issues"
   },
-  "homepage": "https://github.com/codekuma/codekuma.github.io"
+  "homepage": "https://github.com/codekuma/codekuma.github.io",
+  "dependencies": {
+    "browser-jsonp": "^1.0.8",
+    "browserify": "^9.0.3",
+    "moment": "^2.9.0",
+    "reqwest": "^1.1.5",
+    "rivets": "^0.8.0"
+  }
 }
