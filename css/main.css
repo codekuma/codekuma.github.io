@@ -98,3 +98,8 @@ p:last-child {
         left:-13.75rem;
     }
 }
+
+p.stats {
+    font-size: 70%;
+    font-style: italic;
+}

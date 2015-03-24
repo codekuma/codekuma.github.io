@@ -18,5 +18,6 @@ req({
     success: function(data) { 
         DATA.nextEvent = data.results[0];
         DATA.nextEvent.time = moment(DATA.nextEvent.time).format('MMMM Do YYYY, h:mm a');
+        console.log(DATA.nextEvent);
     }
 });
