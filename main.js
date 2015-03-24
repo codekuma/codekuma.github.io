@@ -19,6 +19,7 @@ req({
     success: function(data) { 
         DATA.nextEvent = data.results[0];
         DATA.nextEvent.time = moment(DATA.nextEvent.time).format('MMMM Do YYYY, h:mm a');
+        DATA.nextEvent.spotsRemaining = DATA.nextEvent.rsvp_limit - DATA.nextEvent.yes_rsvp_count;
         console.log(DATA.nextEvent);
     }
 });
