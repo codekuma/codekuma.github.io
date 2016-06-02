@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/css/main.css">
         <title>Code Kuma</title>
     </head>
     <body>
         <header class="main-header">
             <div class="container">
-                <img src="images/codekuma.png" alt="Code Kuma mascot" class="kuma"><h1><img src="images/codekuma-text.png" alt="Code Kuma image" class="kuma-text"></h1>
+                <img src="/images/codekuma.png" alt="Code Kuma mascot" class="kuma">
+                <h1><a href="/"><img src="/images/codekuma-text.png" alt="Code Kuma" class="kuma-text" /></a></h1>
                 <p>Join our Slack Chat</p>
                 <p><script async defer src="http://slack.codekuma.io/slackin.js?large"></script></p>
                 <p><strong>Next session:</strong> { nextEvent.time }<br>
-                    <strong>Where:</strong> {nextEvent.venue.address_1}</p>
+                    <strong>Where:</strong> { nextEvent.venue.address_1 }</p>
 
                 <p><a href="http://www.meetup.com/Code-Kuma/" target="_blank" class="button">Register at Meetup.com</a></p>
-                <p class='stats'><strong>Attending:</strong> { nextEvent.yes_rsvp_count } <br>
+                <p class="stats"><strong>Attending:</strong> { nextEvent.yes_rsvp_count } <br>
                 <strong>Spots remaining: </strong> { nextEvent.spotsRemaining }<br> <strong>Waitlist: </strong>{ nextEvent.waitlist_count }</p>
             </div>
         </header>
         <article role="main" class="main-content">
             <div class="container">
                 <h2>Details</h2>
+
                 <ul>
                     <li><strong>Next session:</strong> { nextEvent.time } </li>
                     <li><strong>Where:</strong> {nextEvent.venue.address_1}</li>
                     <li><strong>Cost:</strong> FREE</li>
-                    <li><strong>Bring:</strong> A laptop, a project, an idea or willingness to learn. We'll provide dinner and drinks :D</li>
-                    <li><strong>Who:</strong> Code Kuma is currently cared for by <a href='https://twitter.com/ticky'>Jess</a>, <a href='https://twitter.com/MelissaKaulfuss'>Melissa</a> &amp; <a href='https://twitter.com/pomke'>Pomke</a></li>
+                    <li><strong>Bring:</strong> A laptop, a project, an idea or willingness to learn. We’ll provide dinner and drinks :D</li>
+                    <li><strong>Who:</strong> Code Kuma is currently cared for by <a href="https://twitter.com/ticky">Jess</a>, <a href="https://twitter.com/MelissaKaulfuss">Melissa</a> &amp; <a href="https://twitter.com/pomke">Pomke</a></li>
                 </ul>
+
                 <h2>What is Code Kuma?</h2>
+
                 <p>Code Kuma is a friendly, casual hack session targetted at people at any skill level who would like to code or learn to code.</p>
-                <p>There is no set agenda for Code Kuma, ideally you would bring along your own project to work on, or find someone at the event who&#39;d
-                    be interested in having some help (There will be a pin-board and cards where you can put up a project you&#39;re looking for volunteers
-                    to help on).</p>
-                <p>Are you totally new to programming? There are people here to help, ask Pomke, Melissa or Jess to help you get a programming language installed on your
-                    computer, point you to some great tutorials, get you set up with a github account, even give you a bit of a kickstart with a brief intro to programming if you&#39;d like. Just like to work on your website? That&#39;s totally okay too ^_^</p>
+
+                <p>There is no set agenda for Code Kuma, ideally you would bring along your own project to work on, or find someone at the event who’d be interested in having some help (There will be a pin-board and cards where you can put up a project you’re looking for volunteers to help on).</p>
+
+                <p>Are you totally new to programming? There are people here to help, ask Pomke, Melissa or Jess to help you get a programming language installed on your computer, point you to some great tutorials, get you set up with a github account, even give you a bit of a kickstart with a brief intro to programming if you’d like. Just like to work on your website? That’s totally okay too ^_^</p>
+
                 <h2>Who is this for?</h2>
-                <p>Everyone, we&#39;d love to see the best programmers in town working on whatever interests them, right along side people just starting out,
-                    this is how we learn and grow as a community. At Code Kuma, everyone can be a mentor, everyone can be a learner. If someone is asking for
-                    help, jump in, if you need some help, just ask!</p>
+
+                <p>Everyone, we’d love to see the best programmers in town working on whatever interests them, right along side people just starting out, this is how we learn and grow as a community. At Code Kuma, everyone can be a mentor, everyone can be a learner. If someone is asking for help, jump in, if you need some help, just ask!</p>
+
                 <h2>Who is this not for?</h2>
-                <p>Anyone who wants to be judgemental about other&#39;s choices of technology. While being constructive is great, we&#39;re all for polyglot engineers.
-                    The group will have a strong focus on Free and Open Source technology, and we&#39;d be the first to recommend people in that direction, however if
-                    someone wants to write some .NET they are welcome to as well. Please avoid aggressively soap-boxing your language of choice, there is nothing
-                    wrong with healthy discussion but please make everyone feel welcome.</p>
+
+                <p>Anyone who wants to be judgemental about other’s choices of technology. While being constructive is great, we’re all for polyglot engineers. The group will have a strong focus on Free and Open Source technology, and we’d be the first to recommend people in that direction, however if someone wants to write some .NET they are welcome to as well. Please avoid aggressively soap-boxing your language of choice, there is nothing wrong with healthy discussion but please make everyone feel welcome.</p>
+
                 <h2>Code of Conduct</h2>
-                <p>Code Kuma is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of participants in any form. Code Kuma participants violating these rules may be asked to leave at the discretion of the organisers.</p>
+
+                <p>Code Kuma is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, or religion. We do not tolerate harassment of participants in any form.</p>
+
+                <p>This code of conduct applies to all Code Kuma spaces, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the Caretakers.</p>
+
+                <p>Some Code Kuma spaces may have additional rules in place, which will be made clearly available to participants. Participants are responsible for knowing and abiding by these rules.</p>
+
+                <p><a href="/code-of-conduct/">Read the full text of our Code of Conduct</a></p>
             </div>
         </article>
-            <div class="footer">
-                <div class="container">
-                    <p class="footer_heading">Our sponsors:</p>
-                    <a href="http://www.lookahead.com.au/" target="blank">
-                        <img src="images/lookahead-logo-dark.png" alt="Lookahead Search logo">
-                    </a>
-                </div>
+        <div class="footer">
+            <div class="container">
+                <p class="footer_heading">Our sponsors:</p>
+                <a href="http://www.lookahead.com.au/" target="blank">
+                    <img src="/images/lookahead-logo-dark.png" alt="Lookahead Search logo">
+                </a>
             </div>
-        <script src='main.js'></script>
+        </div>
+        <script src="/main.js"></script>
     </body>
 </html>
